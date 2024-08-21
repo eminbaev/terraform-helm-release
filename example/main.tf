@@ -1,3 +1,4 @@
 module "app" {
-  source  = "../"
+  source = "../"
+  name   = "testapplication"
 }
