@@ -5,5 +5,6 @@
 module "release" {
   source  = "eminbaev/release/helm"
   name = "testapplication"
+  namespace = "testapp"
 }
 ```
