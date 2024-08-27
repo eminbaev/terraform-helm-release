@@ -3,7 +3,7 @@ module "app" {
   namespace   = "testapp"
   name        = "testapplication"
   values_yaml = <<EOF
-replicaCount: 1
+replicaCount: 3
 image:
   repository: nginx
 EOF
