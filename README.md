@@ -7,6 +7,9 @@ module "release" {
   name = "testapplication"
   namespace = "testapp"
   values_yaml = <<EOF
+
 EOF
+
 }
+
 ```
